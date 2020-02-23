@@ -14,6 +14,8 @@ py -m pipwin install PACKAGE_NAME
 
 ### R Packages
 1. warbleR
+2. tuneR
+3. seewave
 
 ## Steps for execution
 1. Install Python
@@ -27,4 +29,9 @@ py -m pipwin install PACKAGE_NAME
 1. https://cran.r-project.org/bin/windows/base/
 
 ### R Package Installation
-1. Open R console and execute **install.packages("warbleR")** this command.
+1. Open R console and execute **install.packages("PACKAGE_NAME")** and **library("PACKAGE_NAME")** this command.
+
+*If you get any package missing error even after installation of that then please follow the below steps:*
+1. Open R console as an Administrator (close R console first if already opened)
+2. Execute **.libPaths()** if you get two paths then execute **.libPaths("SECOND_PATH")**
+3. Re-install required packages.
