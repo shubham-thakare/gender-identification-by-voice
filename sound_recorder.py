@@ -12,15 +12,13 @@ RATE = 44100
 RECORD_SECONDS = 20
 WAVE_OUTPUT_FILENAME = 'output.wav'
 
-p = pyaudio.PyAudio()
-
-stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE, input=True, frames_per_buffer=CHUNK)
-
 if not os.path.exists('sounds'):
     os.makedirs('sounds')
 
 
 def run(root, tk, output_text_area):
+    p = pyaudio.PyAudio()
+    stream = p.open(format=FORMAT, channels=CHANNELS, rate=RATE, input=True, frames_per_buffer=CHUNK)
     output_text_area.delete(1.0, tk.END)
     output_text_area.insert(1.0, 'Speak for 20 secs\n\n')
     root.update_idletasks()
