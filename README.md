@@ -4,12 +4,12 @@
 py -m pip install PACKAGE_NAME
 1. SpeechRecognition
 2. Pillow
-3. pipwin
+3. pipwin *(Only for Windows users)*
 4. sklearn
 5. matplotlib
 6. pandas
 
-py -m pipwin install PACKAGE_NAME (Only for Windows users, others can simply install it as above)
+py -m pipwin install PACKAGE_NAME *(Only for Windows users, others can simply install it as above)*
 1. PyAudio
 
 ### R Packages
