@@ -23,7 +23,7 @@ py -m pipwin install PACKAGE_NAME (Only for Windows users, others can simply ins
 2. Install required packages for Python and R
 3. Run main.py
 
-*Note: Update the Rscript file path in the analyser.py file (if it's different than yours)*
+***Note**: Update the **Rscript** file path in the analyser.py file (if it's different than yours)*
 
 ### Download R
 1. https://cran.r-project.org/bin/windows/base/
