@@ -35,3 +35,5 @@ py -m pipwin install PACKAGE_NAME *(Only for Windows users, others can simply in
 1. Open R console as an Administrator (close all R console instances first)
 2. Execute **.libPaths()** if you get two paths then execute **.libPaths("SECOND_PATH")**
 3. Re-install required packages.
+
+***Special thanks to [i-Rohan](https://github.com/i-Rohan/GenderRecognitionByVoice)***
